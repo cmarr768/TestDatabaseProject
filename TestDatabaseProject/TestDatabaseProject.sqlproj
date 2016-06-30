@@ -110,6 +110,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\User.sql">
@@ -128,5 +129,6 @@
     <Build Include="Security\IIS APPPOOL_DefaultAppPool_1.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="Security\Permissions.sql" />
+    <Build Include="dbo\Stored Procedures\spUser_GetThreads.sql" />
   </ItemGroup>
 </Project>
